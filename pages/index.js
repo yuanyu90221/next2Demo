@@ -1,4 +1,7 @@
 import Link from 'next/link'
 export default () => (
-	<div>Hello world. <Link href='/about'><a>About</a></Link></div>
+	<ul>
+		<li><Link href='/about'><a>About</a></Link></li>
+		<li><Link href='/news'><a>news</a></Link></li>
+	</ul>
 )
